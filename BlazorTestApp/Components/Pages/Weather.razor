@@ -1,0 +1,92 @@
+﻿@page "/weather"
+@attribute [StreamRendering]
+
+<PageTitle>Weather</PageTitle>
+
+<h1>Weather</h1>
+
+<p>This component demonstrates showing data.</p>
+
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Temp. (C)</th>
+                <th>Temp. (F)</th>
+                <th>Summary</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in forecasts)
+            {
+                <tr>
+                    <td>@forecast.Date.ToShortDateString()</td>
+                    <td>@forecast.TemperatureC</td>
+                    <td>@forecast.TemperatureF</td>
+                    <td style="@GetSummaryStyle(forecast.TemperatureC)">@GenerateSummary(forecast.TemperatureC)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private WeatherForecast[]? forecasts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Simulate asynchronous loading to demonstrate streaming rendering
+        await Task.Delay(500);
+
+        var startDate = DateOnly.FromDateTime(DateTime.Now);
+        forecasts = Enumerable.Range(1, 10).Select(index => new WeatherForecast
+            {
+                Date = startDate.AddDays(index),
+                TemperatureC = Random.Shared.Next(-20, 55),
+            }).ToArray();
+    }
+
+    private class WeatherForecast
+    {
+        public DateOnly Date { get; set; }
+        public int TemperatureC { get; set; }
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+
+    private string GetSummaryStyle(int temperatureC)
+    {
+        return temperatureC switch
+        {
+            var t when t < 0 => "color: blue; font-weight: bold;", // Example style for freezing temperature
+            var t when t < 10 => "color: green; font-weight: bold;", // Example style for cool temperature
+            var t when t < 20 => "color: orange; font-weight: bold;", // Example style for mild temperature
+            _ => "color: red; font-weight: bold;" // Example style for warm or hot temperature
+        };
+    }
+
+    private string GenerateSummary(int temperatureC)
+    {
+        if (temperatureC < 0)
+        {
+            return "It's freezing!"; // Example summary for freezing temperature
+        }
+        else if (temperatureC < 10)
+        {
+            return "Cool and refreshing."; // Example summary for cool temperature
+        }
+        else if (temperatureC < 20)
+        {
+            return "Mild and pleasant."; // Example summary for mild temperature
+        }
+        else
+        {
+            return "It's warm and toasty!"; // Example summary for warm or hot temperature
+        }
+    }
+}

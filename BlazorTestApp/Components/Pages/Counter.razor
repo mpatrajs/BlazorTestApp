@@ -1,0 +1,27 @@
+﻿@page "/counter"
+@rendermode InteractiveServer
+
+<PageTitle>Penguin Counter</PageTitle>
+
+<h1>Penguin Counter</h1>
+
+<p role="status">Current penguin count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click on me</button>
+
+@code {
+    private string currentCount = "0";
+
+    private void IncrementCount()
+    {
+        if (currentCount == "0")
+        {
+            currentCount = "🐧";
+        }
+        else
+        {
+            currentCount += "🐧";
+        }
+        
+    }
+}

@@ -1,0 +1,24 @@
+﻿@page "/cat"
+@attribute [StreamRendering]
+
+<PageTitle>Cat Page</PageTitle>
+
+<h1>😺 Random Cat for your day 😺</h1>
+
+@if (catImageUrl == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <img src="@catImageUrl" alt="Random Cat Image" style="max-width: 100%;" />
+}
+
+@code {
+    private string catImageUrl = "https://cataas.com/cat";
+
+    protected override Task OnInitializedAsync()
+    {
+        return Task.CompletedTask;
+    }
+}
