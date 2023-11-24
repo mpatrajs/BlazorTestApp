@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTestApp.bundle.scp.css",
+      "Id": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTestApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\BlazorTestApp.bundle.scp.css"
     },
     {
-      "Id": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\wwwroot\\app.css",
+      "Id": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\wwwroot\\favicon.png",
+      "Id": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
