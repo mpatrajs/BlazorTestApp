@@ -18,6 +18,13 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.Map("/base/path/BlazorApp", subapp => {
+    subapp.UsePathBase("/base/path/BlazorApp");
+    subapp.UseRouting();
+    subapp.UseEndpoints(endpoints => endpoints.MapBlazorHub());
+});
+app.UsePathBase("/BlazorApp");
+
 app.UseStaticFiles();
 app.UseAntiforgery();
 
