@@ -1,7 +1,0 @@
-E:\mowok\FleetServBlazorApp\BlazorTestApp\BlazorTestApp\obj\Release\net8.0\PubTmp\Out\BlazorTestApp.exe
-E:\mowok\FleetServBlazorApp\BlazorTestApp\BlazorTestApp\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
-E:\mowok\FleetServBlazorApp\BlazorTestApp\BlazorTestApp\obj\Release\net8.0\PubTmp\Out\appsettings.json
-E:\mowok\FleetServBlazorApp\BlazorTestApp\BlazorTestApp\obj\Release\net8.0\PubTmp\Out\BlazorTestApp.dll
-E:\mowok\FleetServBlazorApp\BlazorTestApp\BlazorTestApp\obj\Release\net8.0\PubTmp\Out\BlazorTestApp.deps.json
-E:\mowok\FleetServBlazorApp\BlazorTestApp\BlazorTestApp\obj\Release\net8.0\PubTmp\Out\BlazorTestApp.runtimeconfig.json
-E:\mowok\FleetServBlazorApp\BlazorTestApp\BlazorTestApp\obj\Release\net8.0\PubTmp\Out\BlazorTestApp.pdb

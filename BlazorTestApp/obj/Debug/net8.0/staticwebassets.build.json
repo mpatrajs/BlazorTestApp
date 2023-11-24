@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3vpQvoC0pKYmMugE+0TZVDJFB14Z38PxbyXkY1JLjes=",
+  "Hash": "wsMFTPWtFnNkf4w6CLlC1d3Y9nqOc+ZuLGVPLuF8dM0=",
   "Source": "BlazorTestApp",
   "BasePath": "_content/BlazorTestApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorTestApp\\wwwroot",
       "Source": "BlazorTestApp",
-      "ContentRoot": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\wwwroot\\",
+      "ContentRoot": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\wwwroot\\",
       "BasePath": "_content/BlazorTestApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTestApp.styles.css",
+      "Identity": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTestApp.styles.css",
       "SourceId": "BlazorTestApp",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorTestApp",
       "RelativePath": "BlazorTestApp.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTestApp.styles.css"
+      "OriginalItemSpec": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorTestApp.styles.css"
     },
     {
-      "Identity": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTestApp.bundle.scp.css",
+      "Identity": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTestApp.bundle.scp.css",
       "SourceId": "BlazorTestApp",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorTestApp",
       "RelativePath": "BlazorTestApp.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTestApp.bundle.scp.css"
+      "OriginalItemSpec": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorTestApp.bundle.scp.css"
     },
     {
-      "Identity": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\wwwroot\\app.css",
+      "Identity": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\wwwroot\\app.css",
       "SourceId": "BlazorTestApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\wwwroot\\",
+      "ContentRoot": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\wwwroot\\",
       "BasePath": "_content/BlazorTestApp",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorTestApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\wwwroot\\",
+      "ContentRoot": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\wwwroot\\",
       "BasePath": "_content/BlazorTestApp",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorTestApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\wwwroot\\",
+      "ContentRoot": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\wwwroot\\",
       "BasePath": "_content/BlazorTestApp",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\wwwroot\\favicon.png",
+      "Identity": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\wwwroot\\favicon.png",
       "SourceId": "BlazorTestApp",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\wwwroot\\",
+      "ContentRoot": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\wwwroot\\",
       "BasePath": "_content/BlazorTestApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

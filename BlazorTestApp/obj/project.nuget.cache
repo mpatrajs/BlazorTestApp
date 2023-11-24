@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z6YNhD4iXEJ8mB8eWapU9paWAskOJqfH3vrAkEagtIEvE6S4Q40DknrMNaJAo0fQZj3sdKOd71LYYOgz6i2fPA==",
+  "dgSpecHash": "pl4em9VF6X2BKgOUT/Yl3DXv+6ZE7yjtEKMaiTRJod+uZSbz+DIQUdIfxoqHYm7guhqbREb4DzVefcaPpM8KMw==",
   "success": true,
-  "projectFilePath": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\BlazorTestApp.csproj",
+  "projectFilePath": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\BlazorTestApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

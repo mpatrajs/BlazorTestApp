@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\BlazorTestApp.csproj",
+      "projectUniqueName": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\BlazorTestApp.csproj",
       "projectName": "BlazorTestApp",
-      "projectPath": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\BlazorTestApp.csproj",
+      "projectPath": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\BlazorTestApp.csproj",
       "packagesPath": "C:\\Users\\Miha-PC\\.nuget\\packages\\",
-      "outputPath": "E:\\mowok\\FleetServBlazorApp\\BlazorTestApp\\BlazorTestApp\\obj\\",
+      "outputPath": "E:\\mowok\\WorkProject\\BlazorTestApp\\BlazorTestApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
